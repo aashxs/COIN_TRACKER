@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Coin Tracker</title>
+  </head>
+  <body>
+    <header>COIN TRACKER</header>
+    <div id="fnc">
+      <input type="text" onkeyup="search()" id="seach_bar" placeholder="Search By Name or Symbol" />
+      <button id="market_cap" onclick="sortAth()">Sort By Ath</button>
+      <button id="percentage" onclick="sortPercentage()">
+        Sort by percentage
+      </button>
+    </div>
+    <table id="myTable">
+      
+    </table>
+    <script src="script.js"></script>
+  </body>
+</html>
